@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Create Post</title>
+    <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
     <h1>Create New Post</h1>
