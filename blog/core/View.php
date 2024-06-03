@@ -1,0 +1,11 @@
+<?php
+
+namespace core;
+
+class View {
+    public static function render($view, $data = []) {
+        extract($data);
+        require_once 'views/' . $view . '.php';
+    }
+}
+?>
